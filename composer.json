@@ -21,7 +21,8 @@
     "source": "https://github.com/pkgstore/init"
   },
   "config": {
-    "preferred-install": "dist",
+    "optimize-autoloader": true,
+    "prepend-autoloader": false,
     "sort-packages": true
   }
 }
